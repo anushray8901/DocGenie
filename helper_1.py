@@ -5,7 +5,7 @@ import pandas as pd
 import docx
 
 # Set OpenAI API Key
-OPENAI_API_KEY = ""  # Replace with actual API key
+OPENAI_API_KEY = ""  # Place your API Key here
 
 def read_documents_from_folder(folder_path):
     """Reads all PDFs, Excel, CSV, and Word files from a folder and extracts their combined text."""
