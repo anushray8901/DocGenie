@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 # Hardcoded folder path for documents
-FOLDER_PATH = r"/Users/anushraypingale/Desktop/DocGenie/backend_docs"
+FOLDER_PATH = r""  # Your folder path here
 
 # Extract text from all supported files in the folder
 file_content = read_documents_from_folder(FOLDER_PATH)
